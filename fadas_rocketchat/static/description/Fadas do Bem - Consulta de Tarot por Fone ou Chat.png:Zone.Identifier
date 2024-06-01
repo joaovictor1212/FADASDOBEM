@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://fadastaro-odoo.odoo.com/web?debug=1
+HostUrl=https://fadastaro-odoo.odoo.com/web/image?model=res.company&id=1&field=logo&unique=1712269417000
