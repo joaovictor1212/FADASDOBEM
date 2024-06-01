@@ -2,7 +2,7 @@
     'name': 'Fadas do Bem RocketChat', 
     'summary': 'Modulo para integração com o RocketChat',
     'description': """
-        <p>Módulo de integração com o RocketChat.</p>
+       ** <p>Módulo de integração com o RocketChat.</p>
         <p>Este módulo permite a integração direta com o RocketChat, permitindo que você adicione um widget de chat ao seu website Odoo.</p>
         <ul>
             <li>Facilita a comunicação com os visitantes do site</li>
