@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="website.brand_promotion" inherit_id="web.brand_promotion" name="Brand Promotion">
+        <xpath expr="//t[@t-call='web.brand_promotion_message']" position="replace">
+            <t t-call="web.brand_promotion_message">
+                <t t-set="_message">
+                    <script type="text/javascript">
+                        (function(w, d, s, u) {
+                            w.RocketChat = function(c) { w.RocketChat._.push(c) }; w.RocketChat._ = []; w.RocketChat.url = u;
+                            var h = d.getElementsByTagName(s)[0], j = d.createElement(s);
+                            j.async = true; j.src = 'https://chatfadasdobem.com/livechat/rocketchat-livechat.min.js?_=201903270000';
+                            h.parentNode.insertBefore(j, h);
+                        })(window, document, 'script', 'https://chatfadasdobem.com/livechat');
+                    </script>
+                </t>
+                <t t-set="_utm_medium" t-valuef="website"/>
+            </t>
+        </xpath>
+    </template>
+</odoo>
