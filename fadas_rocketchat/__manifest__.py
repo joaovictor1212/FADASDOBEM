@@ -10,8 +10,7 @@
     'author': 'João Victor',
     'website':'https://fadasdobem.com.br',
     'depends': [
-        'base',
-        'web','website'
+        'website'
     ],
     'data': [
         'views/website_templates.xml',
